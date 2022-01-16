@@ -1,5 +1,6 @@
 server:
     port: 8889
+temperatureUnit: K
 spring:
     cloud:
         config:
