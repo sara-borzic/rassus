@@ -1,9 +1,1 @@
-server:
-    port: 8889
 temperatureUnit: K
-spring:
-    cloud:
-        config:
-            server:
-                git:
-                    uri:  file:///C:/Users/Sara/Documents/diplomski/3.sem/rassus/lab3/configrepo
