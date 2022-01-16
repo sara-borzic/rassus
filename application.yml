@@ -1,9 +1,8 @@
-my:
-    greeting: Hello World from config server
-    list:
-        values: One, Two, Three
-        
-db:
-    connection: connection-string-here-from-config-server
-    host: 127.0.0.1
-    port: 12000
+server:
+    port: 8889
+spring:
+    cloud:
+        config:
+            server:
+                git:
+                    uri:  file:///C:/Users/Sara/Documents/diplomski/3.sem/rassus/lab3/configrepo

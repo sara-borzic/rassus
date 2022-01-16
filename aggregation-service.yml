@@ -1,0 +1,8 @@
+spring: 
+    application: 
+        name:  aggregation-service
+    cloud: 
+        config:
+            uri:http://localhost:8889 
+    config: 
+        import: "config-server"
